@@ -13,8 +13,6 @@ Simple Windows-friendly Tkinter app to convert multiple `.heic` / `.heif` images
    ```bash
    python convert_heic_to_jpg.py
    ```
-   - Windows shortcut: double-click `run_converter.bat` (after installing dependencies).
-   - To build a standalone `.exe`, run `build_windows_exe.bat` (requires Python on PATH).
 
 ## Usage
 
@@ -26,4 +24,3 @@ Simple Windows-friendly Tkinter app to convert multiple `.heic` / `.heif` images
 
 - Conversion is limited to `.heic` / `.heif` extensions.
 - The app uses [pillow-heif](https://pypi.org/project/pillow-heif/) to decode HEIC and Pillow to write JPGs.
-- The packaged `.exe` produced by `build_windows_exe.bat` lives in `dist/heic_to_jpg.exe` and can be pinned to the Start menu or taskbar.
